@@ -1,4 +1,4 @@
-# underactuated-robotics
+# Underactuated-Robotics
 Nonlinear cart–ball dynamics with cubic trajectory optimization, LQR tracking, ballistic landing prediction, animated visualization, and ROA computation over ball initial conditions.
 
 # Cart–Ball Catching System  
@@ -169,7 +169,7 @@ Thus, unlike `run_traj_LQR.m`, the ball initial position is **not a tunable para
 ## Requirements
 
 - MATLAB R2021a or newer  
-- No additional toolboxes required  
+- MATLAB Control System Toolbox (required for the LQR controller) 
 
 ---
 
